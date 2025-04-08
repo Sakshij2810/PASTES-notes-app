@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import {
   removeFromPastes,
   resetAllPastes,
-} from "../features/Paste/PasteSlice.js";
+} from "../features/Paste/pasteSlice.js";
 
 const Paste = () => {
   const navigate = useNavigate();

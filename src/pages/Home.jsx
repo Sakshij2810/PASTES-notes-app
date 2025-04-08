@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { addToPastes, updateToPastes } from "../features/Paste/PasteSlice.js";
+import { addToPastes, updateToPastes } from "../features/Paste/pasteSlice.js";
 import { useSearchParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
