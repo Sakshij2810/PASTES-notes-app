@@ -44,6 +44,7 @@ const Paste = () => {
 
   const handleShareClick = (pasteId) => {
     const shareableLink = `${window.location.origin}/pastes/${pasteId}`;
+    console.log(shareableLink);
 
     navigator.clipboard
       .writeText(shareableLink)
